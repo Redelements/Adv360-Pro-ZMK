@@ -10,7 +10,7 @@ jobs:
     name: Build (Legacy)
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: Redelements/checkout@v4
       - name: Get version data
         id: get_info
         run: |
@@ -66,7 +66,7 @@ jobs:
     name: Build (Clique)
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: Redelements/checkout@v4
       - name: Get version data
         id: get_info
         run: |
