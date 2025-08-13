@@ -1,0 +1,9 @@
+description: ZMK GPIO Matrix Keyscan
+
+compatible: "zmk,kscan-gpio-matrix"
+
+properties:
+  polling-period-ms:
+    type: int
+    required: false
+    description: Polling period in milliseconds for the key scan matrix
